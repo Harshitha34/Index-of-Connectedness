@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Index of Connectedness</title>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript">
+
+  function is_blank(){
+  	var McKenzie=document.getElementById('McKenzie').checked;
+	var BayStreet=document.getElementById('BayStreet').checked;
+	var GordonHead=document.getElementById('GordonHead').checked;
+	var Downtownschools=document.getElementById('Downtownschools').checked;
+	if(McKenzie==false && BayStreet==false && GordonHead==false && Downtownschools==false)
+	 	alert("Please select atleast one school");
+	else{
+	 	var script1=document.createElement("script");
+		script1.setAttribute("type","text/javascript");
+		script1.setAttribute("src","individual.js");
+		document.getElementsByTagName("head")[0].appendChild(script1);
+		}
+}
+	</script>
+ <div id="script">	
+					<style>
+						body {
+		  						overflow: hidden;
+		  						margin: 0;
+		  						font-size: 14px;
+		  						font-family: "Helvetica Neue", Helvetica;
+							}
+						#chart {
+		  						position: absolute;
+		  						top: 50px;
+		  						left:400px;
+							}	
+
+				</style>
+	</div>
+</head>
+  <body>
+  	<div id="body">
+  	  <div id="chart"></div>
+	 
+    </div>
+
+  	<form action ="http://foo.com"  method="get" onclick="is_blank()">
+  		<p>Please select the name of school you are looking for</p>
+  		<input type="radio" name="school" id="McKenzie" value="McKenzie"> McKenzie
+  		<input type="radio" name="school" id="BayStreet" value="BayStreet"> BayStreet
+  		<input type="radio" name="school" id="GordonHead" value="GordonHead"> GordonHead
+  		<input type="radio" name="school" id="Downtownschools" value="Downtownschools"> DowntownSchools</br></br>	
+  		First name: <input type="text"  id="FirstName">
+		Last name: <input type="text"  id="LastName" ><br></br>
+		<input  type="button"  onclick="indi();" value="Enter"/></br>
+</form>
+</body>
+</html>

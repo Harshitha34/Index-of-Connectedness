@@ -1,0 +1,61 @@
+First_Name,Last_Name,axis,School Name,Indicators_orig,value
+SAM,John,Family Connectedness1,McKenzie,In my home there is a parent or another adult who listens to me when I have something to say,0.21
+SAM,John,Family Connectedness2,McKenzie,How much do you feel that people in your family understand you?,0.22
+SAM,John,Family Connectedness3,McKenzie,How much do you feel that you and your family have fun together?,0.23
+SAM,John,Family Connectedness4,McKenzie,If you were having a serious problem is there an adult in your family that you would feel okay talking to?,0.24
+SAM,John,School Connectedness1,McKenzie,At my school there is a teacher or another adult who really cares about me,0.25
+SAM,John,School Connectedness2,McKenzie,How many adults at your school care about you?,0.26
+SAM,John,School Connectedness3,McKenzie,I feel like I am part of this school,0.27
+SAM,John,School Connectedness4,McKenzie,No.of schools a child/youth has attended in the past year,0.28
+SAM,John,Peer Connectedness1,McKenzie,Are there safe places in your neighbourhood/community where you feel comfortable to hang out with friends like playgrounds/parks/ or community centres?,0.58
+SAM,John,Peer Connectedness2,McKenzie,When I am with other kids my age I feel I belong,0.57
+SAM,John,Peer Connectedness3,McKenzie,I have at least one really good friend I can talk to when something is bothering me,0.42
+SAM,John,Peer Connectedness4,McKenzie,Ability to get along with peers,0.76
+SAM,John,Community Connectedness1,McKenzie,In my neighbourhood/community (not from your school or family) there is an adult who really cares about me,0.13
+SAM,John,Community Connectedness2,McKenzie,If you were having a serious problem is there an adult who is NOT in your family that you would feel okay talking to?,0.64
+SAM,John,Community Connectedness3,McKenzie,I feel valued by adults in my community,0.05
+SAM,John,Community Connectedness4,McKenzie,How much do you agree or disagree with the following statement about your neighbourhood? I know my neighbours,0.46
+SAM,John,Cultural Connectedness1,McKenzie,Thinking about the ethnic or cultural group that you most identify with how much do you agree or disagree with the following statement? I understand pretty well what my ethnic group membership means to me,0.37
+SAM,John,Cultural Connectedness2,McKenzie,I have spent time finding out more about my culture such as its histroy traditions and customs,0.38
+SAM,John,Cultural Connectedness3,McKenzie,I have talked to other people in order to learn more about my culture,0.78
+SAM,John,Cultural Connectedness4,McKenzie,I feel a strong connection to my ancestors,0.01
+PETER,Kennedy,Family Connectedness1,BayStreet,In my home there is a parent or another adult who listens to me when I have something to say,0.99
+PETER,Kennedy,Family Connectedness2,BayStreet,How much do you feel that people in your family understand you?,0.02
+PETER,Kennedy,Family Connectedness3,BayStreet,How much do you feel that you and your family have fun together?,0.42
+PETER,Kennedy,Family Connectedness4,BayStreet,If you were having a serious problem is there an adult in your family that you would feel okay talking to?,0.03
+PETER,Kennedy,School Connectedness1,BayStreet,At my school there is a teacher or another adult who really cares about me,0.44
+PETER,Kennedy,School Connectedness2,BayStreet,How many adults at your school care about you?,0.05
+PETER,Kennedy,School Connectedness3,BayStreet,I feel like I am part of this school,0.06
+PETER,Kennedy,School Connectedness4,BayStreet,No.of schools a child/youth has attended in the past year,0.47
+PETER,Kennedy,Peer Connectedness1,BayStreet,Are there safe places in your neighbourhood/community where you feel comfortable to hang out with friends like playgrounds/parks/ or community centres?,0.48
+PETER,Kennedy,Peer Connectedness2,BayStreet,When I am with other kids my age I feel I belong,0.49
+PETER,Kennedy,Peer Connectedness3,BayStreet,I have at least one really good friend I can talk to when something is bothering me,0.50
+PETER,Kennedy,Peer Connectedness4,BayStreet,Ability to get along with peers,0.51
+PETER,Kennedy,Community Connectedness1,BayStreet,In my neighbourhood/community (not from your school or family) there is an adult who really cares about me,0.52
+PETER,Kennedy,Community Connectedness2,BayStreet,If you were having a serious problem is there an adult who is NOT in your family that you would feel okay talking to?,0.53
+PETER,Kennedy,Community Connectedness3,BayStreet,I feel valued by adults in my community,0.54
+PETER,Kennedy,Community Connectedness4,BayStreet,How much do you agree or disagree with the following statement about your neighbourhood? I know my neighbours,0.55
+PETER,Kennedy,Cultural Connectedness1,BayStreet,Thinking about the ethnic or cultural group that you most identify with how much do you agree or disagree with the following statement? I understand pretty well what my ethnic group membership means to me,0.56
+PETER,Kennedy,Cultural Connectedness2,BayStreet,I have spent time finding out more about my culture such as its histroy traditions and customs,0.57
+PETER,Kennedy,Cultural Connectedness3,BayStreet,I have talked to other people in order to learn more about my culture,0.58
+PETER,Kennedy,Cultural Connectedness4,BayStreet,I feel a strong connection to my ancestors,0.59
+SAM,John,Family Connectedness1,GordonHead,In my home there is a parent or another adult who listens to me when I have something to say,0.05
+SAM,John,Family Connectedness2,GordonHead,How much do you feel that people in your family understand you?,0.64
+SAM,John,Family Connectedness3,GordonHead,How much do you feel that you and your family have fun together?,0.05
+SAM,John,Family Connectedness4,GordonHead,If you were having a serious problem is there an adult in your family that you would feel okay talking to?,0.24
+SAM,John,School Connectedness1,GordonHead,At my school there is a teacher or another adult who really cares about me,0.91
+SAM,John,School Connectedness2,GordonHead,How many adults at your school care about you?,0.84
+SAM,John,School Connectedness3,GordonHead,I feel like I am part of this school,0.95
+SAM,John,School Connectedness4,GordonHead,No.of schools a child/youth has attended in the past year,0.12
+SAM,John,Peer Connectedness1,GordonHead,Are there safe places in your neighbourhood/community where you feel comfortable to hang out with friends like playgrounds/parks/ or community centres?,0.01
+SAM,John,Peer Connectedness2,GordonHead,When I am with other kids my age I feel I belong,0.02
+SAM,John,Peer Connectedness3,GordonHead,I have at least one really good friend I can talk to when something is bothering me,0.03
+SAM,John,Peer Connectedness4,GordonHead,Ability to get along with peers,0.56
+SAM,John,Community Connectedness1,GordonHead,In my neighbourhood/community (not from your school or family) there is an adult who really cares about me,0.13
+SAM,John,Community Connectedness2,GordonHead,If you were having a serious problem is there an adult who is NOT in your family that you would feel okay talking to?,0.05
+SAM,John,Community Connectedness3,GordonHead,I feel valued by adults in my community,0.06
+SAM,John,Community Connectedness4,GordonHead,How much do you agree or disagree with the following statement about your neighbourhood? I know my neighbours,0.77
+SAM,John,Cultural Connectedness1,GordonHead,Thinking about the ethnic or cultural group that you most identify with how much do you agree or disagree with the following statement? I understand pretty well what my ethnic group membership means to me,0.85
+SAM,John,Cultural Connectedness2,GordonHead,I have spent time finding out more about my culture such as its histroy traditions and customs,0.96
+SAM,John,Cultural Connectedness3,GordonHead,I have talked to other people in order to learn more about my culture,0.70
+SAM,John,Cultural Connectedness4,GordonHead,I feel a strong connection to my ancestors,0.85

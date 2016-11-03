@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <title>Index of Connectedness</title>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script type="text/javascript">
+
+	function is_checked(){			
+	 var McKenzie=document.getElementById('McKenzie').checked;
+	 var BayStreet=document.getElementById('BayStreet').checked;
+	 var GordonHead=document.getElementById('GordonHead').checked;
+	 var Downtownschools=document.getElementById('Downtownschools').checked;
+
+	 if(McKenzie==false && BayStreet==false && GordonHead==false && Downtownschools==false)
+	 	alert("Please select atleast one school to display the Radar Chart");
+	 			
+	else{
+	 			
+	 				var script=document.createElement("script");
+					script.setAttribute("type","text/javascript");
+					script.setAttribute("src","RadarChart.js");
+					document.getElementsByTagName("head")[0].appendChild(script);
+					var value=document.querySelectorAll('input[type ="checkbox"]:checked');
+					//console.log(value1);
+					
+					var date_button=document.getElementById("date_button");	
+					if(value.length==1)
+						date_button.disabled=false;
+					else
+						date_button.disabled=true;
+					var sub=document.getElementById("another");
+					if(value.length==2)
+					{	
+						sub.disabled = false;
+						var script1=document.createElement("script");
+						script1.setAttribute("type","text/javascript");
+						script1.setAttribute("src","another_view.js");
+						document.getElementsByTagName("head")[0].appendChild(script1);
+					}
+					else
+    					sub.disabled = true;
+	}	
+	
+	}
+	var x;
+	function ShowHideDiv() {
+        dvtext.style.display = "block" ;
+        /*var Date1=document.getElementById('Date1').value;
+	 	var Date2=document.getElementById('Date2').value;
+	 	if(Date1=='' || Date2=='')
+	 	{
+	 		alert("Please enter the values for both the date fields");
+	 	}*/
+    	var script1=document.createElement("script");
+		script1.setAttribute("type","text/javascript");
+		/*script1.setAttribute("src","date_view.js");*/
+		script1.setAttribute("src","another_view.js");
+		document.getElementsByTagName("head")[0].appendChild(script1);	
+	}
+</script>
+	<div id="script">
+					<style>
+						body {
+		  						overflow: hidden;
+		  						margin: 0;
+		  						font-size: 14px;
+		  						font-family: "Helvetica Neue", Helvetica;
+							}
+						#chart {
+		  						position: absolute;
+		  						top: 50px;
+		  						left: 300px;
+							}	
+
+						#chart1 {
+		  						position: absolute;
+		  						top: 50px;
+		  						left: 100px;
+							}	
+						#chart2 {
+		  						position: absolute;
+		  						top: 50px;
+		  						left: 775px;
+							}	
+				</style>
+	</div>
+</head>
+  <body>
+  	<div id="body">
+  	  <div id="chart"></div>
+	  <div id="chart1"></div>
+	  <div id="chart2"></div>
+    </div>
+   
+  	<form action ="http://foo.com" method="get" onclick="is_checked()">
+  		<p>Please select the area of school you are looking for</p>
+  		<input type="checkbox" name="McKenzie" id="McKenzie" value="McKenzie"> McKenzie</br>
+  		<input type="checkbox" name="BayStreet" id="BayStreet" value="BayStreet"> BayStreet</br>
+  		<input type="checkbox" name="GordonHead" id="GordonHead" value="GordonHead"> GordonHead</br>
+  		<input type="checkbox" name="Downtownschools" id="Downtownschools" value="Downtownschools"> Downtownschools</br>	
+  		<input  type="button"  onclick="radarchart();" value="Explore Radar chart"/></br></br>
+  		<input id="another" type="button"  onclick="another_view();" value="Explore the data in two different charts" disabled="disabled"/></br></br>
+  		<input id="date_button" type="button"  onclick="ShowHideDiv()" value="Explore Radar chart for two different dates" disabled="disabled"/></br>
+
+  	<div id="dvtext" style="display: none">
+  	<form action ="http://foo.com"  method="get" onclick="ShowHideDiv()">
+  		<p>Please enter two dates which you wish to view the data for</p>
+    	Date1:
+    	<input type="text" id="Date1" /><br><br>
+    	Date2:
+    	<input type="text" id="Date2" /> <br/><br/>
+    	<!--<input  type="button"  onclick="date_view();" value="Enter"/></br>-->
+    	<input  type="button"  onclick="another_view();" value="Enter"/></br>
+    </form>
+	</div>
+  		
+	</form><br/><br/><br/><br/>
+	<p><a href="survey.html"> Take a tour to our survey page </a></p>
+	
+</body>
+
+</html>
+
+
+ <!--x = document.createElement("BUTTON");
+        x.id="special";
+    	var t = document.createTextNode("Enter");
+    	x.appendChild(t);
+    	document.body.appendChild(x);
+    	var plq=document.getElementById("special");
+    	console.log(plq);
+    	x.onclick=date_view();{-->

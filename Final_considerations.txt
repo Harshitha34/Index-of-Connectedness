@@ -1,0 +1,15 @@
+Individual:
+Everything is working fine
+
+There may be question that u can write an error msg if wrong name is enetered:
+Ans:in such a way u can keep restricting at each and everypoint..but here the motto is to show the data of particular individual
+
+What if two students with sma elast and firts name are there in the smae school??(not into our consideration)
+
+
+Group:
+How will i know whcih color represnets to which school??
+
+php:
+is perfect
+
