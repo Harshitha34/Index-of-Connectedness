@@ -1,10 +1,10 @@
-function radarchart()	
+//This code is taken from https://github.com/alangrafu/radar-chart-d3
+//Some changes are made according to the requirement.
 {
 				var button;
-
 var w = 500,
 	h = 500;
-	var colorscale = d3.scale.category10();
+	
 	var d=[];
 	var date;
 	var date_row;//added

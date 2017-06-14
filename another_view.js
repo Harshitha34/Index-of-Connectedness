@@ -1,4 +1,5 @@
-function another_view()
+//This code is taken from https://github.com/alangrafu/radar-chart-d3
+//Some changes have been made according to the requirement
 {
 var w = 500,
 	h = 500;
